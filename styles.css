@@ -6,6 +6,7 @@ html
 /*all, to make website go all the way*/
 * 
 { 
+    margin-bottom: 0;
     margin-left: 0; 
     margin-right: 0;
 }
@@ -49,13 +50,14 @@ a
     margin-right: 0;
     margin-top: 20px;
     min-height: 1300px;
+    width: 100%;
 }
 /*navigation bar*/
 nav
 {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    width: 90%; /* Full width */
     margin-top:10px;
 }
 
@@ -148,6 +150,7 @@ nav
 {
     padding: 2%;
     font-family: 'Sriracha', cursive;
+    width:80%;
 }
 /*text on socials page*/
 .contact
@@ -181,7 +184,7 @@ nav
     height:100%;
     width:30%;
     overflow:auto;
-    opacity: 85%;
+    opacity: 85%; 
 }
 
 /*volunteer text*/
@@ -192,7 +195,7 @@ nav
     width: 40%;
     padding: 2%;
     font-size: 20px;
-    top:720%;
+    top:720%; 
 }
 /*pick of shops*/
 .romford
@@ -216,7 +219,7 @@ nav
     position: absolute;
     margin-left: 50%;
     margin-top:19%;
-    opacity: 80%;
+    opacity: 80%;   
 }
 
 /*the socials linked button*/
@@ -224,7 +227,7 @@ button
 {
     padding: 2px;
     border-radius: 3px;
-    border: none;
+    border: none;   
 }
 
 /*opacity of images in scrollbar*/
