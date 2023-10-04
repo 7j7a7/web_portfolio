@@ -13,6 +13,7 @@ html
 /*general body styling*/
 body 
 { 
+    /* overflow: hidden;  to get rid of scrollbar*/
     background-color: rgb(168, 140, 168);
     font-family: 'Roboto', sans-serif; 
 }
@@ -199,7 +200,7 @@ nav
 .romford
 {
     position: absolute;
-    top: 725%;
+    top: 745%;
     margin-left:60%;
     opacity: 95%;
 }
@@ -209,7 +210,7 @@ nav
 {
     position: absolute;
     margin-left:50%;
-    top: 725%;
+    top: 745%;
     opacity: 80%;
 }
 /*icon2*/
@@ -219,7 +220,7 @@ nav
     position: absolute;
     margin-left: 50%;
     margin-top:19%;
-    top: 725%;
+    top: 745%;
     opacity: 80%;   
 }
 
