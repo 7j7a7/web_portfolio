@@ -65,8 +65,7 @@ nav
 /*section1 home*/
 #part1
 { 
-    width: 100vw;
-    height:100vh; 
+    
     display: grid;
   
     background-color:#eab0b5;
@@ -74,8 +73,7 @@ nav
 /*section2 social*/
 #part2
 {
-    width: 100vw;
-    height:100vh; 
+    
     display: grid;
     grid-template-columns: 2fr 2fr;
     background-color:#C0ADFF;
@@ -83,15 +81,13 @@ nav
 /*section3 hobbies*/
 #part3
 {
-    width: 100vw;
-    height:100vh; 
+     
     background-color:#FEF7D8;  
 }
 /*section4 volunteering*/
 #part4
 {
-    width: 100vw;
-    height:100vh; 
+     
     background-color:#BEDAD0;
 }
 /*my name*/
