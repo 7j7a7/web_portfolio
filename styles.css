@@ -164,11 +164,10 @@ nav
 .hobby_text
 {
     font-family: 'Sriracha', cursive;
-    position: absolute;
-    top: 490%;
-    width:40%;
-    padding:2%;
+    bottom: -5%;
+    width:35%;
     font-size: 20px;
+    margin-left: 2%;
 }
 /*to highlight link in text*/
 .highlight
@@ -181,26 +180,26 @@ nav
 {
     position: absolute;
     right:10%;
+    top:480%;
     height:100%;
     width:30%;
     overflow:auto;
     opacity: 85%; 
 }
-
 /*volunteer text*/
 .vol
 {
     font-family: 'Sriracha', cursive;
-    position: absolute;
-    width: 40%;
-    padding: 2%;
+    width:40%;
+    top: 50px;
     font-size: 20px;
-    top:720%; 
+    margin-left: 2%;
 }
 /*pick of shops*/
 .romford
 {
     position: absolute;
+    top: 725%;
     margin-left:60%;
     opacity: 95%;
 }
@@ -210,6 +209,7 @@ nav
 {
     position: absolute;
     margin-left:50%;
+    top: 725%;
     opacity: 80%;
 }
 /*icon2*/
@@ -219,6 +219,7 @@ nav
     position: absolute;
     margin-left: 50%;
     margin-top:19%;
+    top: 725%;
     opacity: 80%;   
 }
 
@@ -234,6 +235,71 @@ button
 .op
 {
     opacity: 90%;
+}
+
+/*media query to adjust to the bigger screens at college*/
+@media screen and (min-width:1350px) and (max-width:1380px) 
+{
+    /*hobbies summary*/
+.hobby_text
+{
+    font-family: 'Sriracha', cursive;
+    width:35%;
+    font-size: 20px;
+    margin:0 auto;
+    margin-left: 2%;
+}
+
+/*volunteer text*/
+.vol
+{
+    font-family: 'Sriracha', cursive;
+    width:40%;
+    font-size: 20px;
+    margin:0 auto;
+    margin-left: 2%;
+}
+
+/*pick of shops*/
+.romford
+{
+    position: absolute;
+    top:450%;
+    margin-left:60%;
+    opacity: 95%;
+}
+/*icon1*/
+
+#bhfIcon
+{
+    position: absolute;
+    top:450%;
+    margin-left:50%;
+    opacity: 80%;
+}
+/*icon2*/
+
+#hhIcon
+{
+    position: absolute;
+    top:450%;
+    margin-left: 50%;
+    margin-top:19%;
+    opacity: 80%;   
+}
+
+/*scrollbar with hobby images*/
+.img_scroll
+{
+    position: absolute;
+    right:10%;
+    height:100%;
+    width:30%;
+    top: 300%;
+    overflow:auto;
+    opacity: 85%; 
+}
+
 }
 
 
