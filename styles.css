@@ -235,7 +235,7 @@ button
 }
 
 /*media query to adjust to the bigger screens at college*/
-@media screen and (min-width:1350px) and (max-width:1380px) 
+@media screen and (max-width:1930px) 
 {
     /*hobbies summary*/
 .hobby_text
